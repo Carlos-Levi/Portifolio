@@ -1,0 +1,111 @@
+.footer {
+  width: 100%;
+  padding: 80px 424px 40px 424px;
+  background: linear-gradient(
+    180deg,
+    #000000 0%,  /* Preto absoluto no início */
+    #0a0a0a 50%,  /* Preto muito escuro, um pouco mais claro que o início */
+    #000000 100%  /* Preto absoluto no final */
+);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  width: 100%;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+}
+
+.getInTouch {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.get, .space, .inTouch {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 56px;
+  line-height: 84px;
+  white-space: pre-wrap;
+}
+
+.get {
+  color: rgba(227, 228, 230, 0.55);
+  font-weight: 300;
+}
+
+.space {
+  color: white;
+  font-weight: 300;
+}
+
+.inTouch {
+  color: #E3E4E6;
+  font-weight: 600;
+}
+
+.subText {
+  color: #E3E4E6;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.iconsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+.madeWith {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.madeWithText {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(227, 228, 230, 0.55);
+  text-align: center;
+}
+
+.heart {
+  color: white;
+}
+
+.madeWithText span:last-child {
+  color: #E3E4E6;
+  font-weight: 600;
+}

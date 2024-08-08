@@ -1,0 +1,125 @@
+.aboutMeContainer {
+    width: 100%;
+    padding-left: 107px;
+    padding-right: 107px;
+    padding-top: 74px;
+    padding-bottom: 74px;
+    background: linear-gradient(
+    180deg,
+
+    #010101 30%,
+    #010101 34%,
+    #010101 36%,
+    #010101 100%
+  );
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .contentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+  }
+  
+  .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .title {
+    color: #E3E4E6;
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 36px;
+    letter-spacing: 1.44px;
+    word-wrap: break-word;
+    align-self: stretch;
+  }
+  
+  .description {
+    color: rgba(227, 228, 230, 0.55);
+    font-size: 32px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    line-height: 48px;
+    word-wrap: break-word;
+    align-self: stretch;
+  }
+  
+  .textLight {
+    color: rgba(227, 228, 230, 0.55);
+    font-size: 32px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    line-height: 48px;
+    word-wrap: break-word;
+  }
+  
+  .textBold {
+    color: #E3E4E6;
+    font-size: 32px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    line-height: 48px;
+    word-wrap: break-word;
+  }
+  
+  .textWhite {
+    color: white;
+    font-size: 32px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    line-height: 48px;
+    word-wrap: break-word;
+  }
+  
+  .imagesContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .imageColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 32px;
+  }
+  
+  .imageWrapper {
+    position: relative;
+    width: 282px;
+    height: 408px;
+  }
+  
+  .imageBackground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #D9D9D9;
+    border-radius: 16px;
+  }
+  
+  .image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+  }
+  

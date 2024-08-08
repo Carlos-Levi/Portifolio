@@ -1,0 +1,79 @@
+.headerContainer {
+  width: 100%;
+  padding-top: 23px;
+  padding-bottom: 24px;
+  padding-left: 112px;
+  padding-right: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 921px;
+  background-color: #000000ec; /* Define o fundo preto */
+}
+
+.logoContainer {
+  width: 96px;
+  height: 48px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.logo {
+  width: 95.2px;
+  height: 28px;
+  background: linear-gradient(99deg, #3c3fd8 0%, #704bc5 100%);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.navItem a {
+  text-decoration: none; /* Garante que o link não tenha sublinhado */
+}
+
+.navTextActive {
+  color: #704bc5;
+  font-size: 14px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.navText {
+  color: #E3E4E6;
+  font-size: 14px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.underline {
+  width: 9px;
+  height: 0;
+  border: 2.5px solid #E3E4E6;
+}

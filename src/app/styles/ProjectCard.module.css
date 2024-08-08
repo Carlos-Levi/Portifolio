@@ -1,0 +1,107 @@
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dotted #9747FF;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #C4C4C4; /* Background color as described */
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image covers the container */
+}
+
+.content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* Adjust gap to match layout */
+}
+
+.title {
+  color: #E3E4E6;
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  word-wrap: break-word;
+}
+
+.description {
+  color: rgba(227, 228, 230, 0.55);
+  font-size: 32px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  line-height: 48px;
+  word-wrap: break-word;
+}
+
+.category {
+  color: #E3E4E6;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 100px;
+  border: 1px solid rgba(227, 228, 230, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: #E3E4E6;
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.button:hover {
+  color: #E3E4E6;
+  border-color: #E3E4E6;
+}
+
+.arrow {
+  width: 24px;
+  height: 24px;
+  padding: 5px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow div {
+  width: 7px;
+  height: 14px;
+  border: 2px solid #E3E4E6;
+}
+
+.comingSoon {
+  color: #E3E4E6;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 20px;
+}

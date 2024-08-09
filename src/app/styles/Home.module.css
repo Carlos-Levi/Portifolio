@@ -1,6 +1,6 @@
 .homeSection {
   width: 100%;
-  height: 100vh; 
+  height: 100vh;
   background: linear-gradient(
     180deg,
     #010101 30%,
@@ -13,52 +13,58 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  text-align: center;
 }
 
 .textContainer {
-  text-align: center;
-  padding-left: 104px;
-  padding-right: 104px;
-  justify-content: flex-start;
-  align-items: flex-start;
-  display: inline-flex;
-  gap: 10px; /* Espaçamento entre as partes do texto */
+  max-width: 80%; /* Ajuste conforme necessário */
 }
 
-.introText {
-  color: rgba(227, 228, 230, 0.55);
-  font-size: 56px;
+.introText,
+.highlightedText,
+.spaceText {
+  display: block; /* Garante que o texto fique em blocos */
+  margin: 0 auto; /* Centraliza o texto */
+  font-size: 36px; /* Ajuste o tamanho da fonte conforme necessário */
   font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
-  line-height: 84px;
-  word-wrap: break-word;
+  line-height: 54px; /* Ajuste a altura da linha para o novo tamanho da fonte */
+}
+
+.introText,
+.highlightedText {
+  margin-bottom: 10px; /* Adiciona um espaço entre as linhas */
 }
 
 .highlightedText {
   color: #E3E4E6;
-  font-size: 56px;
-  font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  line-height: 84px;
-  word-wrap: break-word;
+}
+
+.introText {
+  color: rgba(227, 228, 230, 0.55);
+  font-weight: 300;
 }
 
 .spaceText {
   color: rgba(255, 255, 255, 0.75);
-  font-size: 56px;
-  font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  line-height: 84px;
-  word-wrap: break-word;
 }
 
-.iconContainer {
-  position: absolute;
-  bottom: 40px;
+@media (max-width: 768px) {
+  .introText,
+  .highlightedText,
+  .spaceText {
+    font-size: 28px; /* Reduz o tamanho da fonte para telas menores */
+    line-height: 40px;
+  }
 }
 
-.icon {
-  width: 20px;
-  height: 20px;
-  border: 2.67px solid #E3E4E6;
+@media (max-width: 480px) {
+  .introText,
+  .highlightedText,
+  .spaceText {
+    font-size: 20px; /* Ajusta ainda mais o tamanho da fonte para telas muito pequenas */
+    line-height: 30px;
+    max-width: 90%; /* Ajusta a largura máxima para dispositivos móveis */
+  }
 }

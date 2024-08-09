@@ -3,20 +3,20 @@ import styles from '../styles/AboutMeSection.module.css';
 
 const AboutMeSection: React.FC = () => {
   return (
-    <div className={styles.aboutMeContainer}>
+    <div id="about" className={styles.aboutMeContainer}>
       <div className={styles.contentContainer}>
         <div className={styles.textContainer}>
-          <div className={styles.title}>A bit about me</div>
+          <div className={styles.title}>Um pouco sobre mim</div>
           <div className={styles.description}>
-            <span className={styles.textLight}>
-              I am a UI/UX designer who is passionate about creating
+            <span className={styles.textLigh}>
+            O voluntariado é uma parte importante da minha vida:&nbsp;
             </span>
             <span className={styles.textBold}>
-              beautiful and joyful digital experiences. Besides design, I love
+              atuo em causas sociais com o Grupo Ampare,
             </span>
             <span className={styles.textWhite}> </span>
-            <span className={styles.textBold}>
-              music, games and travelling.
+            <span className={styles.textLigh}>
+              sirvo como líder de banda na minha igreja, e serei juiz na OBR PE 2024
             </span>
           </div>
         </div>
@@ -25,8 +25,8 @@ const AboutMeSection: React.FC = () => {
             <div className={styles.imageBackground} />
             <img
               className={styles.image}
-              src="https://via.placeholder.com/282x408"
-              alt="About me image 1"
+              src="/Ampare.PNG"
+              alt="voluntario"
             />
           </div>
           <div className={styles.imageColumn}>
@@ -34,16 +34,16 @@ const AboutMeSection: React.FC = () => {
               <div className={styles.imageBackground} />
               <img
                 className={styles.image}
-                src="https://via.placeholder.com/282x374"
-                alt="About me image 2"
+                src="/play.jpg"
+                alt="servindo"
               />
             </div>
             <div className={styles.imageWrapper}>
               <div className={styles.imageBackground} />
               <img
                 className={styles.image}
-                src="https://via.placeholder.com/282x375"
-                alt="About me image 3"
+                src="/robotica.jpg"
+                alt="robotica"
               />
             </div>
           </div>
@@ -54,4 +54,3 @@ const AboutMeSection: React.FC = () => {
 };
 
 export default AboutMeSection;
-

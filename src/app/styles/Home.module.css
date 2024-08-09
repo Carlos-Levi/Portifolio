@@ -17,33 +17,48 @@
 
 .textContainer {
   text-align: center;
-  margin-bottom: 20px; /* Espaço entre o texto e o ícone */
+  padding-left: 104px;
+  padding-right: 104px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px; /* Espaçamento entre as partes do texto */
 }
 
 .introText {
   color: rgba(227, 228, 230, 0.55);
-  font-size: 32px; /* Ajustado para tamanho menor */
+  font-size: 56px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  line-height: 48px; /* Ajustado para tamanho menor */
-  display: block;
+  line-height: 84px;
+  word-wrap: break-word;
 }
 
 .highlightedText {
   color: #E3E4E6;
-  font-size: 32px; /* Ajustado para tamanho menor */
+  font-size: 56px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  line-height: 48px; /* Ajustado para tamanho menor */
-  display: block;
+  line-height: 84px;
+  word-wrap: break-word;
+}
+
+.spaceText {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 56px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  line-height: 84px;
+  word-wrap: break-word;
 }
 
 .iconContainer {
   position: absolute;
-  bottom: 40px; /* Ajustado para manter o ícone afastado da parte inferior */
+  bottom: 40px;
 }
 
 .icon {
   width: 20px;
   height: 20px;
+  border: 2.67px solid #E3E4E6;
 }

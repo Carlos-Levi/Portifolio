@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className={styles.textWrapper}>
           <div className={styles.getInTouch}>
             <span className={styles.get}>Entre em</span>
-            <span className={styles.space}> </span>
+            
             <span className={styles.inTouch}>Contato.</span>
           </div>
           <div className={styles.subText}>

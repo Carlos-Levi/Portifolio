@@ -5,14 +5,7 @@
   padding-bottom: 120px;
   padding-left: 110px;
   padding-right: 110px;
-  background: linear-gradient(
-    180deg,
-
-    #010101 30%,
-    #010101 34%,
-    #010101 36%,
-    #010101 100%
-  );
+  background: rgba(0, 0, 0, 0.973);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

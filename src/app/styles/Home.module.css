@@ -1,13 +1,7 @@
 .homeSection {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(
-    180deg,
-    #010101 30%,
-    #010101 34%,
-    #010101 36%,
-    #010101 100%
-  );
+  background: rgba(0, 0, 0, 0.973);
   display: flex;
   flex-direction: column;
   align-items: center;

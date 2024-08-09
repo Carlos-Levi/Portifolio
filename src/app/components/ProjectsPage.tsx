@@ -25,10 +25,10 @@ const ProjectsPage: React.FC = () => {
               <div className={styles.projectTitle}>Real estate Template</div>
               <div>
                 <span className={styles.projectDescription}>
-                  Lorem ipsum dolor sit amet, consectetur
+                  Um template inovador para sites imobiliários, projetado para apresentar propriedades com elegância.&nbsp;
                 </span>
                 <span className={styles.projectDescriptionHighlight}>
-                  adipiscing elit. Ultrices lorem non feugiat egestas amet.
+                  Inclui funcionalidades interativas e um design responsivo para melhorar a experiência do usuário.
                 </span>
               </div>
             </div>
@@ -49,17 +49,17 @@ const ProjectsPage: React.FC = () => {
         <div className={styles.projectDetails}>
           <div className={styles.projectHeader}>
             <div>
-              <div className={styles.projectTitle}>Plant identification app</div>
+              <div className={styles.projectTitle}>Breath Natural</div>
               <div>
                 <span className={styles.projectDescription}>
-                  Lorem ipsum dolor sit amet, consectetur
+                  Um aplicativo de identificação de plantas para Macbook, projetado para ajudar entusiastas da natureza a identificar e aprender sobre plantas.&nbsp;
                 </span>
                 <span className={styles.projectDescriptionHighlight}>
-                  adipiscing elit. Ultrices lorem non feugiat egestas amet.
+                  Interface intuitiva e recursos de busca detalhados para uma experiência educativa e envolvente.
                 </span>
               </div>
             </div>
-            <div className={styles.projectType}>Mobile App</div>
+            <div className={styles.projectType}>Macbook App</div>
           </div>
           <div className={styles.viewWorkButton}>
             <span>View work</span>
@@ -75,7 +75,7 @@ const ProjectsPage: React.FC = () => {
           <img
             className={styles.projectImg}
             src="/breath_natural.png"
-            alt="Plant identification app"
+            alt="Breath Natural"
           />
         </div>
       </div>
@@ -95,10 +95,10 @@ const ProjectsPage: React.FC = () => {
               <div className={styles.projectTitle}>Smart Home App</div>
               <div>
                 <span className={styles.projectDescription}>
-                  Lorem ipsum dolor sit amet, consectetur
+                  Um aplicativo para automação residencial, proporcionando controle eficiente de dispositivos e sistemas domésticos.&nbsp;
                 </span>
                 <span className={styles.projectDescriptionHighlight}>
-                  adipiscing elit. Ultrices lorem non feugiat egestas amet.
+                  Com uma interface amigável e funcionalidades avançadas!
                 </span>
               </div>
             </div>

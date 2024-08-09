@@ -8,7 +8,8 @@
   justify-content: center;
   align-items: flex-start;
   gap: 921px;
-  background-color: #000000ec; /* Define o fundo preto */
+  background: rgba(0, 0, 0, 0.9); /* Preto com 90% de opacidade para mais escuro */
+  backdrop-filter: blur(10px); /* Ajuste o nível de desfoque conforme necessário */
 }
 
 .logoContainer {

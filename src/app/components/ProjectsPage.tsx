@@ -95,7 +95,7 @@ const ProjectsPage: React.FC = () => {
               <div className={styles.projectTitle}>Smart Home App</div>
               <div>
                 <span className={styles.projectDescription}>
-                  Um aplicativo para automação residencial, proporcionando controle eficiente de dispositivos e sistemas domésticos.&nbsp;
+                  Aplicativo para automação residencial, proporcionando controle eficiente de dispositivos e sistemas domésticos.&nbsp;
                 </span>
                 <span className={styles.projectDescriptionHighlight}>
                   Com uma interface amigável e funcionalidades avançadas!

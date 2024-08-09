@@ -9,7 +9,8 @@ const HomeSection: React.FC = () => {
           Engenheiro de Computação e Desenvolvedor de Software
         </span>
         <span className={styles.introText}>
-          apaixonado por criar soluções e transformar ideias em experiências digitais.
+          Apaixonado por criar soluções e transformar ideias em experiências digitais.
+         
         </span>
       </div>
     </div>
@@ -17,3 +18,4 @@ const HomeSection: React.FC = () => {
 };
 
 export default HomeSection;
+
